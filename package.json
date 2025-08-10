@@ -1,0 +1,36 @@
+{
+  "name": "musicmaker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "echo 'no linter configured'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Neon Beat Lab — browser music maker",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.1"
+  },
+  "dependencies": {
+    "@react-three/drei": "*",
+    "@react-three/fiber": "*",
+    "@react-three/postprocessing": "*",
+    "maath": "*",
+    "react": "*",
+    "react-dom": "*",
+    "three": "*",
+    "tone": "*"
+  }
+}
