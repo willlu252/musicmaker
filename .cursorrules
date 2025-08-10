@@ -1,0 +1,5 @@
+# Cursor Agent Rules to prevent hanging
+- Use shorter timeouts for terminal commands
+- Avoid interactive prompts when possible
+- Use --yes or --force flags where appropriate
+- Break long operations into smaller chunks
